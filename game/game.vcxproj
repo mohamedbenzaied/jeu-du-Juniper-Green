@@ -203,8 +203,6 @@
     <ResourceCompile Include="game.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\..\Downloads\letter-j-16.ico" />
-    <Image Include="..\..\..\..\Downloads\PinClipart.com_mouthwash-clipart_3844294.png" />
     <Image Include="1606.m00.i104.n025.S.c12.181015754-Eskimo-cold-house-from-ice-blocks-in-Antarctica-vector-illustration-[Converti].jpg" />
     <Image Include="a26b0c89c4bf869ae7a903bfd9d63617.jpg" />
     <Image Include="fantasy_cartoon_game_backgrounds01.png" />

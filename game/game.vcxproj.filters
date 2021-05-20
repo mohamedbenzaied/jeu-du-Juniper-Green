@@ -177,12 +177,6 @@
     <Image Include="letter-j-16.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\..\..\Downloads\PinClipart.com_mouthwash-clipart_3844294.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="..\..\..\..\Downloads\letter-j-16.ico">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="30368622_event-congratulations-applause_by_joel-loopez_preview.wav">
