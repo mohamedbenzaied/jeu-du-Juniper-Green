@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board5x5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board8x8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board10x10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="liste.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="joueur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficulty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board5x5mp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board8x8mp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="board10x10mp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multiplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board5x5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board8x8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board10x10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="liste.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="joueur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficulty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board5x5mp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board8x8mp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board10x10mp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="1606.m00.i104.n025.S.c12.181015754-Eskimo-cold-house-from-ice-blocks-in-Antarctica-vector-illustration-[Converti].jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="a26b0c89c4bf869ae7a903bfd9d63617.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wp3804050.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fantasy_cartoon_game_backgrounds01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre-1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sans-titre---16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="searchpng.com-3d-game-button-png-copy-free-download.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="letter-j-16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\PinClipart.com_mouthwash-clipart_3844294.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\letter-j-16.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="30368622_event-congratulations-applause_by_joel-loopez_preview.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="Sad_Trombone-Joe_Lamb-665429450.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Ta Da-SoundBible.com-1884170640.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

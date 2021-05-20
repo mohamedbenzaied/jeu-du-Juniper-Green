@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F27511DA-2019-49C8-81F3-ADF4B28B030C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board10x10.cpp" />
+    <ClCompile Include="board10x10mp.cpp" />
+    <ClCompile Include="board5x5.cpp" />
+    <ClCompile Include="board5x5mp.cpp" />
+    <ClCompile Include="board8x8.cpp" />
+    <ClCompile Include="board8x8mp.cpp" />
+    <ClCompile Include="Difficulty.cpp" />
+    <ClCompile Include="home.cpp" />
+    <ClCompile Include="IA.cpp" />
+    <ClCompile Include="joueur.cpp" />
+    <ClCompile Include="liste.cpp" />
+    <ClCompile Include="multiplayer.cpp" />
+    <ClCompile Include="solo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board10x10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="board10x10mp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="board5x5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="board5x5mp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="board8x8.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="board8x8mp.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Difficulty.h" />
+    <ClInclude Include="home.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="IA.h" />
+    <ClInclude Include="joueur.h" />
+    <ClInclude Include="liste.h" />
+    <ClInclude Include="multiplayer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="solo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="board10x10.resx">
+      <DependentUpon>board10x10.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="board10x10mp.resx">
+      <DependentUpon>board10x10mp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="board5x5.resx">
+      <DependentUpon>board5x5.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="board5x5mp.resx">
+      <DependentUpon>board5x5mp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="board8x8.resx">
+      <DependentUpon>board8x8.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="board8x8mp.resx">
+      <DependentUpon>board8x8mp.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="multiplayer.resx">
+      <DependentUpon>multiplayer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solo.resx">
+      <DependentUpon>solo.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\letter-j-16.ico" />
+    <Image Include="..\..\..\..\Downloads\PinClipart.com_mouthwash-clipart_3844294.png" />
+    <Image Include="1606.m00.i104.n025.S.c12.181015754-Eskimo-cold-house-from-ice-blocks-in-Antarctica-vector-illustration-[Converti].jpg" />
+    <Image Include="a26b0c89c4bf869ae7a903bfd9d63617.jpg" />
+    <Image Include="fantasy_cartoon_game_backgrounds01.png" />
+    <Image Include="icon1.ico" />
+    <Image Include="letter-j-16.ico" />
+    <Image Include="Sans-titre---1.png" />
+    <Image Include="Sans-titre---10.png" />
+    <Image Include="Sans-titre---11.png" />
+    <Image Include="Sans-titre---12.png" />
+    <Image Include="Sans-titre---13.png" />
+    <Image Include="Sans-titre---14.png" />
+    <Image Include="Sans-titre---15.png" />
+    <Image Include="Sans-titre---16.png" />
+    <Image Include="Sans-titre---2.png" />
+    <Image Include="Sans-titre---3.png" />
+    <Image Include="Sans-titre---4.png" />
+    <Image Include="Sans-titre---5.png" />
+    <Image Include="Sans-titre---6.png" />
+    <Image Include="Sans-titre---7.png" />
+    <Image Include="Sans-titre---8.png" />
+    <Image Include="Sans-titre---9.png" />
+    <Image Include="Sans-titre-1.png" />
+    <Image Include="searchpng.com-3d-game-button-png-copy-free-download.png" />
+    <Image Include="wp3804050.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="30368622_event-congratulations-applause_by_joel-loopez_preview.wav" />
+    <Media Include="Sad_Trombone-Joe_Lamb-665429450.wav" />
+    <Media Include="Ta Da-SoundBible.com-1884170640.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
