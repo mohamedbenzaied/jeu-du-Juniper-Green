@@ -309,7 +309,7 @@ namespace game {
 	private: System::Void multiplayer_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	if (textBox1->Text != "" && textBox1->Text != "") {
+	if (textBox1->Text != "" && textBox2->Text != "") {
 		if (this->checkBox1->Checked == true){
 		this->Hide();
 		board5x5mp^ br5= gcnew board5x5mp;
